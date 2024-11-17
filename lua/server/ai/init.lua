@@ -6,6 +6,8 @@ TrustAI = require "server.ai.trust_ai"
 
 SmartAI = require "server.ai.smart_ai"
 
+LLMAI = require "server.ai.llm_ai"
+
 -- load ai module from packages
 local directories
 if UsingNewCore then
